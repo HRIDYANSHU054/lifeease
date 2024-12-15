@@ -2,8 +2,8 @@ import Link from "next/link";
 
 function RegisterPage() {
   return (
-    <div className="absolute-centering flex flex-col min-w-[36rem] py-6 pb-10 px-8 text-slate-800 bg-gray-200 rounded-md shadow-md ">
-      <h1 className="uppercase text-3xl text-center font-medium  mb-4">
+    <div className="absolute-centering flex flex-col min-w-[36rem] py-6 pb-10 px-8 text-slate-800 bg-gray-100 rounded-md shadow-md ">
+      <h1 className="uppercase text-3xl text-center font-semibold mb-4">
         Create account
       </h1>
 
@@ -19,7 +19,7 @@ function RegisterPage() {
             type="text"
             name="name"
             id="name"
-            className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-md focus:ring-primary-600 focus:border-primary-600 block w-full p-3 "
+            className="bg-slate-50 border border-gray-300 text-gray-900 text-sm rounded-md focus:ring-primary-600 focus:border-primary-600 block w-full p-3 "
             placeholder="Joason Reeves"
             required
           />
@@ -35,7 +35,7 @@ function RegisterPage() {
             type="email"
             name="email"
             id="email"
-            className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-md focus:ring-primary-600 focus:border-primary-600 block w-full p-3 "
+            className="bg-slate-50 border border-gray-300 text-gray-900 text-sm rounded-md focus:ring-primary-600 focus:border-primary-600 block w-full p-3 "
             placeholder="name@company.com"
             required
           />
@@ -52,7 +52,7 @@ function RegisterPage() {
             name="password"
             id="password"
             placeholder="••••••••"
-            className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-md focus:ring-primary-600 focus:border-primary-600 block w-full p-3 "
+            className="bg-slate-50 border border-gray-300 text-gray-900 text-sm rounded-md focus:ring-primary-600 focus:border-primary-600 block w-full p-3 "
             required
           />
         </div>

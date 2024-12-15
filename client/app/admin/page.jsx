@@ -6,7 +6,7 @@ function page() {
     <div className="flex min-w-dvw gap-2 h-full">
       {/* left */}
       {/* buttonsboard */}
-      <div className="flex-1 border border-slate-200 bg-pink-700 rounded-md flex flex-col px-2 py-2 gap-2">
+      <div className="flex-1 border border-slate-200 bg-white rounded-md flex flex-col px-2 py-2 gap-2">
         <LeftBox />
       </div>
 
